@@ -6,7 +6,6 @@ class Hash
     self.each do |key, value|
       if arguments.include?(value)
         keys_array << key
-        binding.pry
       end
     end
     keys_array
